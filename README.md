@@ -95,3 +95,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Design inspiration from various music streaming platforms
 - Icons from Lucide React
 - UI components inspired by shadcn/ui
+# jugnu
