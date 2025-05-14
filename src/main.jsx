@@ -4,7 +4,7 @@ import App from "./App.jsx"
 import "./index.css"
 import { PlayerProvider } from "./context/PlayerContext"
 import { ToastProvider } from "./hooks/use-toast"
-import Loader from "./components/Loader"
+import Loader from "./components/Loader.jsx"
 
 const Root = () => {
   const [loading, setLoading] = useState(true)

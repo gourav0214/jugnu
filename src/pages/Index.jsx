@@ -392,7 +392,7 @@ const Index = () => {
             </a>
           </nav>
 
-          <div className="flex items-center space-x-4">
+          {/* <div className="flex items-center space-x-4">
             {user ? (
               <Link
                 to="/dashboard"
@@ -408,7 +408,7 @@ const Index = () => {
                 Get Started
               </Link>
             )}
-          </div>
+          </div> */}
         </div>
       </header>
 
@@ -430,7 +430,7 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <Link to="/login">
-                <button className="px-8 py-3 rounded-full bg-gradient-to-r from-jugnu-orange to-jugnu-pink hover:opacity-90 transition-opacity flex items-center gap-2">
+                {/* <button className="px-8 py-3 rounded-full bg-gradient-to-r from-jugnu-orange to-jugnu-pink hover:opacity-90 transition-opacity flex items-center gap-2">
                   <Play size={20} />
                   Start Listening
                 </button>
@@ -439,7 +439,7 @@ const Index = () => {
                 <button className="px-8 py-3 rounded-full border-2 border-white/20 hover:border-white/40 transition-colors flex items-center gap-2">
                   <Heart size={20} />
                   Join Community
-                </button>
+                </button> */}
                 </Link>
               </div>
             </div>

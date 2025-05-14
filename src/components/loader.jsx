@@ -14,7 +14,7 @@ const Loader = () => {
         }
         return prev;
       });
-    }, 30);
+    }, 31);
 
     return () => clearInterval(interval);
   }, []);

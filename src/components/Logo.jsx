@@ -10,7 +10,7 @@ const Logo = ({ size = 'medium', type = 'full' }) => {
 
   return (
     <div >
-      <img className={`${sizes[size]}`} src="public/transparent-logo.svg" alt="logo" />
+      <img className={`${sizes[size]}`} src="transparent-logo.svg" alt="logo" />
     </div>
   );
 };

@@ -30,7 +30,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="text-center bg-jugnu-dark/10 p-4 rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold mb-4 text-jugnu-cyan">Time Until Deployment</h2>
+      <h2 className="text-2xl font-bold mb-4 text-jugnu-cyan">CountDown</h2>
       <div className="flex justify-center space-x-4 text-white">
         <div>
           <p className="text-4xl font-bold">{timeLeft.days}</p>
